@@ -1,27 +1,22 @@
-# AI-Enhanced Data Accuracy in CRM Systems
+AI_CRM_Data_Cleaner/
+│
+├── app.py                  # Main GUI application script
+├── README.md               # Instructions to run and use the tool
+├── requirements.txt        # Required Python libraries
+└── sample_data.csv         # Example CRM data file
+# Features
 
-This project aims to improve the accuracy and reliability of customer data within CRM systems using AI techniques. It focuses on data cleaning, duplicate detection, and handling incomplete records.
+- Removes duplicate records
+- Imputes missing numerical values using KNN
+- Detects and removes anomalies using DBSCAN clustering
+- Saves cleaned data as a new CSV file
 
-some powerful code to tackle AI-enhanced data accuracy in CRM systems. We'll break this down step by step, focusing on efficiency and providing you with the necessary structure and sample data.
+## Requirements
 
-## Project Structure:
+- Python 3.8+
+- Required packages listed in `requirements.txt`
 
-AI_CRM_Data_Accuracy/
-├── data/
-│   ├── raw_crm_data_1.csv
-│   └── raw_crm_data_2.csv
-├── src/
-│   ├── clustering_duplicates.py
-│   ├── data_cleaning.py:Contains functions for standardizing and cleaning data.
-│   ├── data_validation.py
-│   ├── duplicate_detection.py:Contains functions for detecting exact, fuzzy, and semantic duplicates.
-│   ├── duplicate_resolution.py
-    |__evaluation.py:(To be implemented) Contains functions for evaluating the effectiveness of the cleaning and deduplication processes.
-    |__incomplete_data_handling.py:Contains functions for identifying and handling missing values.
-    |__main.py:Main script to execute the data cleaning, duplicate detection, and incomplete data handling steps.
-    
-├── reports/
-│   └── (will contain evaluation reports of all python files present in src folder)
-├── README.md
-└── requirements.txt:Lists the required Python libraries.
+## Installation
 
+```bash
+pip install -r requirements.txt
