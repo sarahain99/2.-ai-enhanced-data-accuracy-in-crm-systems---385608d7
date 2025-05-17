@@ -1,0 +1,11 @@
+CustomerID,Name,Email,Phone,Age,AnnualIncome,City
+1,John Doe,john@example.com,5551234567,29,55000,New York
+2,Jane Smith,jane@example.com,5559876543,34,62000,Los Angeles
+3,Bob Johnson,bob@example.com,,45,72000,Chicago
+4,Alice White,alice@example.com,5554567890,29,55000,New York
+5,John Doe,john@example.com,5551234567,29,55000,New York
+6,Chris Green,chris@example.com,5553216789,NaN,65000,Boston
+7,Mary Black,mary@example.com,5551122334,38,NaN,San Francisco
+8,Steve Blue,steve@example.com,5559988776,41,70000,NaN
+9,Nina Brown,nina@example.com,5554433221,30,51000,Chicago
+10,Tom Grey,tom@example.com,5556655443,40,48000,Houston
